@@ -6,14 +6,14 @@ public class InfiniteSize {
         while(true){
             if(arr[i] == target)
                 return i;
-            if(arr[i] < target)
+            if(arr[i] > target)
                 return -1;
-            i--;
+            i++;
         }
     }
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 5, 5};
-        int target = 4;
+        int target = 2;
         System.out.println(Infinite(arr, target));
     }
 }
