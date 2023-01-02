@@ -13,7 +13,7 @@ public class RepeatElement {
         return -1;
     }
     public static void main(String[] args) {
-        int arr[] = {0, 2, 1, 2, 2};
+        int arr[] = {4, 2, 4, 5, 2, 3, 1};
         System.out.println(repeat(arr));
     }
 }

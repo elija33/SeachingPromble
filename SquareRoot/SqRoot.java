@@ -5,9 +5,9 @@ public class SqRoot {
         int i = 1;
         while(i * i <= num)
             i++;
-        return (i = 1);
+        return i - 1;
     }
     public static void main(String[] args) {
-        
+        System.out.println(rootnumber(15));
     }
 }
