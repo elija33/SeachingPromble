@@ -27,7 +27,7 @@ public class EfficiRotatedArray {
     }
     public static void main(String[] args) {
         int arr[] = {100, 200, 400, 1000, 10, 20};
-        int target = 200;
+        int target = 20;
         System.out.println(EfficiArray(arr, target));
     }
 }
