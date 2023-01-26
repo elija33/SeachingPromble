@@ -8,6 +8,6 @@ public class SqRoot {
         return i - 1;
     }
     public static void main(String[] args) {
-        System.out.println(rootnumber(15));
+        System.out.println(rootnumber(25));
     }
 }
