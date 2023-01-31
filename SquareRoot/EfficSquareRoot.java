@@ -2,7 +2,7 @@ package SquareRoot;
 
 public class EfficSquareRoot {
     public static int SquareRoot(int arr){
-        int start = 1, ans = -1;
+        int start = 1, ans = 0;
         int end = arr; 
 
         while(start <= end){
@@ -22,6 +22,6 @@ public class EfficSquareRoot {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println(SquareRoot(25));
+        System.out.println(SquareRoot(0));
     }
 }
